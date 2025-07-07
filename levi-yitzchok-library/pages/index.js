@@ -4,7 +4,6 @@ import { getDatabase, ref, onValue, set, push, update, remove } from 'firebase/d
 import { Book, User, Calendar, DollarSign, Search, Plus, Edit, Trash2, LogIn, LogOut, Users, BookOpen, Clock, AlertCircle } from 'lucide-react';
 
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
