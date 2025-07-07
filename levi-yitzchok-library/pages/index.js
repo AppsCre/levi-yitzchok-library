@@ -3,17 +3,6 @@ import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, onValue, set, push, update, remove } from 'firebase/database';
 import { Book, User, Calendar, DollarSign, Search, Plus, Edit, Trash2, LogIn, LogOut, Users, BookOpen, Clock, AlertCircle } from 'lucide-react';
 
-// 🔥 REPLACE WITH YOUR FIREBASE CONFIG
-const firebaseConfig = {
-  apiKey: "your-api-key-here",
-  authDomain: "your-project.firebaseapp.com",
-  databaseURL: "https://your-project-default-rtdb.firebaseio.com",
-  projectId: "your-project-id",
-  storageBucket: "your-project.appspot.com",
-  messagingSenderId: "123456789",
-  appId: "your-app-id"
-};
-
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
